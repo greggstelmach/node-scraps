@@ -22,4 +22,4 @@ port = process.argv[3] || 3000
 host = process.argv[2] || 'localhost'
 server.listen(port, host)
 console.log('Listening at http://' + host + ':' + port)
-console.log('(Usage: node console-out-server.js <host> <port>)')
+console.log('(Usage: node console-server.js <host> <port>)')
